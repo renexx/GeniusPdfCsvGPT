@@ -13,7 +13,7 @@ def main():
     load_dotenv()
     api_key = st.session_state.get("OPENAI_API_KEY")
     if(api_key):
-        st.header("Ask Rejibo question about your PDF or CSV 💬")
+        st.header("Ask Rejibo 💬 about your PDF, CSV")
         api_key = st.session_state.get("OPENAI_API_KEY")
         
         # upload file
