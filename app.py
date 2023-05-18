@@ -1,12 +1,8 @@
 from dotenv import load_dotenv
 import streamlit as st
-
-
 import os
-
 from components.sidebar import sidebar
 from functions import parseCSV, parsePDF
-
 
 sidebar()
 
@@ -14,11 +10,10 @@ def clear_submit():
     st.session_state["submit"] = False
 
 def main():
-
     load_dotenv()
     api_key = st.session_state.get("OPENAI_API_KEY")
     if(api_key):
-        st.header("Ask your PDF, CSV 💬")
+        st.header("Ask Rejibo question about your PDF or CSV 💬")
         api_key = st.session_state.get("OPENAI_API_KEY")
         
         # upload file
