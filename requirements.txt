@@ -1,0 +1,9 @@
+streamlit
+python-dotenv
+langchain==0.0.154
+openai
+pydantic
+PyPDF2
+tiktoken
+faiss-cpu
+tabulate
