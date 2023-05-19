@@ -29,7 +29,7 @@ def main():
     else:
         st.header("Hello, please enter your OpenAI API key 🔑 into the input field in the sidebar")
         st.markdown(
-            "1. Enter your [OpenAI API key](https://platform.openai.com/account/api-keys) 🔑\n"  # noqa: E501
+            "1. Enter your OpenAI API key 🔑\n"  # noqa: E501
             "2. Upload a pdf, csv 📄\n"
             "3. Ask a question based on the document 💬\n"
         )
